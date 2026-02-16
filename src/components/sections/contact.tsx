@@ -42,8 +42,8 @@ export function Contact() {
                 size="lg"
                 className="w-full bg-blueblood-blue-600 hover:bg-blueblood-blue-700"
               >
-                <a href={siteConfig.links.email}>
-                  <Mail className="mr-2 h-5 w-5" />
+                <a href={siteConfig.links.email} className="inline-flex items-center gap-2">
+                  <Mail className="h-5 w-5" />
                   Send an Email
                 </a>
               </Button>
